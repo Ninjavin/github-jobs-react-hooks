@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Learnings
+
+* Built using React Hooks Completely
+> React Hooks allows to create functional components
+	+ From Class to () => {...}
+	+ Convert state+setState(...) to useState(...)
+* `useReducer` state
+* `useEffect` Hook
+* *System Limit No of watchers problem faced* - `sudo nano /etc/sysctl.conf` then increase the limit `fs.inotify.max_user_watches=50000`, check again using `sudo sysctl -p`
+* Axios Cancel Token
